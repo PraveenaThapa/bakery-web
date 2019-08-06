@@ -1,0 +1,42 @@
+*{box-sizing: border-box;}
+body{
+    margin: 0; padding: 0;
+}
+/*-----------Header and navigation bar-----------*/
+.menu-bar{
+    height: 60px;
+    width: 100%;
+    background-color: palevioletred;
+    position: fixed;
+}
+.logo{
+    height: 56px;
+    width: 60px;
+    margin-inline-start: 20px;
+    padding-top: 2px;
+}
+.menus{
+    list-style: none;
+    float: right;
+    display:inline-flex;
+    color: white;
+   margin-inline-end: 70px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menus li{
+    margin-inline-start: 70px;
+}
+
+/*---------------Main Page-------------------*/
+.page{
+    background-image: url("images/img1.jpg");
+    background-size: cover;
+    height:700px;
+    width:100%;
+    padding-top: 60px;
+}
+.text{
+    text-align: center;
+    font-size: 40px;
+}
